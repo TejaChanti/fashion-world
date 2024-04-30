@@ -28,4 +28,5 @@ This is a simple web application that allows users to browse and view products f
 - Each product card displays the product image, title, vendor, price, compare at price, and discount percentage. Users can also add products to their cart (dummy button).
 
 ## Demo
-  Github pages 
+  Github pages https://tejachanti.github.io/fashion-world/
+  Netlify link 
