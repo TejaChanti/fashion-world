@@ -18,7 +18,7 @@ This is a simple web application that allows users to browse and view products f
 
 1. Clone the repository:
 
-   git clone https://github.com/TejaChanti/fashion-world.git
+- git clone https://github.com/TejaChanti/fashion-world.git
 
 2. Open the `index.html` file in your web browser.
 
@@ -28,5 +28,5 @@ This is a simple web application that allows users to browse and view products f
 - Each product card displays the product image, title, vendor, price, compare at price, and discount percentage. Users can also add products to their cart (dummy button).
 
 ## Demo
-  Github pages https://tejachanti.github.io/fashion-world/
-  Netlify link 
+- Github pages https://tejachanti.github.io/fashion-world/
+- Netlify link https://fashion-worlds.netlify.app
