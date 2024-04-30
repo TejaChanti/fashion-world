@@ -1,0 +1,137 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .tab {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #ddd;
+    cursor: pointer;
+  }
+  
+  .tab.active {
+    background-color: #000000;
+    color: #fff;
+  }
+  
+  .product-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    height: 450px;
+  }
+  
+  .product-image {
+    width: 100%;
+    max-width: 200px;
+    height: 300px;
+  }
+  
+  .badge {
+    background-color: #ff9800;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    position: relative;
+    bottom: 30px;
+    font-size: 10px;
+  }
+  
+  .add-to-cart {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .product-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .title-vendor-card {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .product-title {
+    font-weight: bold;
+    width: 150px;
+    height: 20px;
+    overflow: hidden;
+  }
+
+  .vendor {
+    font-size: 12px;
+    margin: 0px;
+  }
+
+  .price-discount-card {
+    display: flex;
+    gap: 20px;
+  }
+
+  .price {
+    font-weight: bold;
+  }
+
+  .compare-price {
+    color: grey;
+    text-decoration: line-through;
+  }
+
+  .discount {
+    color: #E92222;
+  }
+
+  .product-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+  
+  @media (max-width: 767px) {
+    .product-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    .product-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+  }
