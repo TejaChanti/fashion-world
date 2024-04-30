@@ -27,3 +27,5 @@ This is a simple web application that allows users to browse and view products f
 - Click on the tabs (Men, Women, Kids) to switch between categories and view the respective products.
 - Each product card displays the product image, title, vendor, price, compare at price, and discount percentage. Users can also add products to their cart (dummy button).
 
+## Demo
+  Github pages 
